@@ -4,7 +4,7 @@ const buttons = document.getElementsByClassName("hexcode");
 const colors = document.getElementsByClassName("color");
 //console.log(colors); all the colors
 
-/*for(let i=0;i<buttons.length;i++){
+for(let i=0;i<buttons.length;i++){
 	let button = buttons[i];
 	let color = colors[i];
 	
@@ -20,7 +20,7 @@ const colors = document.getElementsByClassName("color");
   		document.execCommand("copy");
   		alert("Copied!");
   	});
-}*/
+}
 
 
 function getRandomNumber() {
