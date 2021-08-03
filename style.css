@@ -23,3 +23,16 @@ body{
 h1 {
 	text-align: center;
 }
+.palette{
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+        height: auto;
+	width: 60vw;
+	margin: auto;
+}
+.palette-item{
+	display: grid;
+	grid-gap: 1rem;
+}
+
+
