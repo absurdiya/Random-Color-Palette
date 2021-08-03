@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+}
+
+.heading-bar{
+  letter-spacing: 0.1rem;
+  height: 5vh;
+  margin-top: 10vh;
+  margin-bottom: 6vh;
+  text-align: center;
+  color: #000000;
+}
+h1 {
+	text-align: center;
+}
